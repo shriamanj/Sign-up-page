@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    background-color: hsl(234, 29%, 20%);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.form{
+    width: 700px;
+    height: 500px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+    background-color: hsl(0, 0%, 100%);
+    padding: 1rem;
+}
+.content{
+    width: 50%;
+    margin-right: 1rem;
+    padding: 2rem 2rem 1.5rem 1rem;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 1.2rem;
+    gap: 15px;
+}
+.para{
+    margin-top: 1rem;
+}
+.benefits{
+    margin-top: 1rem;
+}
+label {
+    display: flex;
+    justify-content: space-between;
+}
+input{
+    width: 90%;
+    padding: 1rem;
+    margin-top: 1rem;
+    border-radius: 10px;
+    border: 1.4px solid hsl(234, 29%, 20%);
+    cursor: pointer;
+}
+.error {
+    display: none;
+    color: red;
+    font-weight: 600;
+    font-size: 0.9rem;
+}
+.display-error {
+    display: inline;
+  }
+.input-error {
+    color: red;
+    border-color: red;
+    border: 1.5px solid red;
+    background-color: rgba(255, 0, 0, 0.137);
+}
+button{
+    width: 100%;
+    padding: 0.8rem;
+    font-size: 16px;
+    margin-top: 1rem;
+    border-radius: 10px;
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(234, 29%, 20%);
+}
+button:hover{
+    cursor: pointer;
+    border: none;
+    transition: all 100ms;
+    background: linear-gradient(90deg, orangered, rgb(250, 101, 126));
+    -webkit-box-shadow: 3px 3px 16.5px -1px orangered;
+    -moz-box-shadow: 3px 3px 16.5px -1px orangered;
+    box-shadow: 3px 3px 16.5px -1px orangered;
+}
+.banner{
+    background-image: url('/images/illustration-sign-up-desktop.svg');
+    width: 60%;
+    height: auto;
+    border-radius: 10px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+p{
+    font-size: 16px;
+}
